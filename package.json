@@ -1,0 +1,25 @@
+{
+  "name": "watson_demo",
+  "version": "1.0.0",
+  "description": "This will allow us to interact with IBM watson services",
+  "main": "./src/js/index.js",
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-route": "^1.6.1",
+    "body-parser": "^1.15.2",
+    "browserify": "^13.1.1",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "jquery": "^3.1.1",
+    "path": "^0.12.7",
+    "watson-developer-cloud": "^2.14.3",
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "npm install && browserify ./src/index.js -o ./src/bundle.js",
+    "start": "npm run build && node app.js"
+  },
+  "author": "Danny Fallas",
+  "license": "ISC"
+}

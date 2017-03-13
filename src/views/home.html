@@ -1,0 +1,10 @@
+<div class="input-container" ng-controller="MainController">
+    <form novalidate class="simple-form">
+        <label>Me: <input type="text" ng-model="conversation.text" /></label><br />
+        <input type="submit" ng-click="sendMessage(conversation)" value="Send" />
+    </form>
+    <div>
+        <p>Me: {{conversation.text}}</p>
+        <p>Watson: {{conversation.result}}</p>
+    </div>
+</div>

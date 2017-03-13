@@ -1,0 +1,3 @@
+Intents: An intent represents the purpose of a user's input, the name of an intent is always prefixed with the # character. Use examples.
+Entities: An entity represents a term or object that is relevant to your intents and that provides a specific context for an intent, the name of an entity is always prefixed with the @ character. Use synonyms.
+Dialog: A dialog is a branching conversation flow that defines how your application responds when it recognizes the defined intents and entities.
